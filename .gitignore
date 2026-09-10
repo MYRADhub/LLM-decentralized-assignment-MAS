@@ -4,6 +4,7 @@
 *.png
 *.csv
 *.txt
+!requirements.txt
 /configs/eval
 *.zip
 .DS_Store
