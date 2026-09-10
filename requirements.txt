@@ -1,0 +1,10 @@
+matplotlib>=3.8
+numpy>=1.26
+ollama>=0.3
+openai>=1.40
+openpyxl>=3.1
+pandas>=2.0
+pillow>=10.0
+pydantic>=2.0
+python-dotenv>=1.0
+PyYAML>=6.0
