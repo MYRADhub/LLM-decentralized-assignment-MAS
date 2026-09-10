@@ -64,8 +64,9 @@ project-root/
 ├── core/           # Core environment, plotting, pathfinding, LLM interface
 ├── configs/        # YAML scenario files (easy/medium/hard)
 ├── agents/         # Heuristic, LLM, human agent implementations
-├── results/        # Experiment logs, output CSVs
-└── scripts/        # Evaluation and plotting utilities
+├── tasks/          # Evaluation drivers (eval.py, eval_final.py, ...)
+├── figures/        # Paper figure generation scripts
+└── utils/          # Human-study and Ollama-specific utilities
 ```
 
 ---
@@ -74,8 +75,8 @@ project-root/
 
 1. **Install requirements** (`pip install -r requirements.txt`)
 2. **Configure scenarios** using YAML files in `/configs`
-3. **Run experiments** with agents (see scripts/eval\_final.py)
-4. **Compare and visualize** results (see scripts/plot\_human\_cases.py, etc.)
+3. **Run experiments** with agents (see tasks/eval\_final.py)
+4. **Compare and visualize** results (see core/plot\_human\_cases.py, figures/plot\_results\_per\_agent.py, etc.)
 
 ---
 
